@@ -1,0 +1,21 @@
+.book {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.book-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.book-owner {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.book-description {
+  line-height: 1.5;
+}

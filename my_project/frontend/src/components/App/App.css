@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #333;
+    color: #fff;
+    padding: 0 50px;
+  }
+  
+.logo a {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.add-book-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightseagreen;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-book-button:hover {
+  background-color: green;
+}
+
+.App-header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+main {
+  text-align: center;
+  margin-top: 50px;
+}
